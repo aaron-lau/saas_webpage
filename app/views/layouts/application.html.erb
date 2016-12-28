@@ -52,7 +52,9 @@
           <%= content_tag :div, msg, class: "alert alert-#{type}" %>
         <% end %>
       </div>
-      <%= yield %>
+      <div
+        <%= yield %>
+      ></div>
     </div>
     <footer>
       <i class='fa fa-copyright'></i>
