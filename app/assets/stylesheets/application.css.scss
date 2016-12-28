@@ -27,10 +27,10 @@ h1, h2, h3 {
 
 // Background Gradient
 .navbar, .home-callout {
-    //Gradient provided by @_ighosh at uiGradients.com
-    background: #4568DC; /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #4568DC , #B06AB3); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #4568DC , #B06AB3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  //Gradient provided by @_ighosh at uiGradients.com
+  background: #4568DC; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #4568DC , #B06AB3); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #4568DC , #B06AB3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 html {
@@ -73,11 +73,11 @@ footer {
 
 .navbar-default .navbar-brand, 
 .navbar-default .navbar-nav > li > a {
+  color: white;
+  &:hover {
     color: white;
-    &:hover {
-        color: white;
-        opacity: 0.75;
-    }
+    opacity: 0.75;
+  }
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -137,6 +137,10 @@ footer {
 }
 
 .alert-disclaimer-link {
-    color: #843534;
-    font-weight: bold;
+  color: #843534;
+  font-weight: bold;
+}
+
+.home-well {
+  height: 200px;
 }
