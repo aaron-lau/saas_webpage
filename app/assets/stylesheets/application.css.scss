@@ -100,8 +100,8 @@ footer {
 }
 
 .flash-container {
-  position: absolute;
   width: 100%;
+  z-index: -1; 
 }
 
 .alert-notice, .alert-alert {
