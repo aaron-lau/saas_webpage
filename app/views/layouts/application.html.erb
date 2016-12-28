@@ -49,6 +49,12 @@
         <%= content_tag :div, msg, class: "alert alert-#{type}" %>
       <% end %>
     </div>
-    <%= yield %>
+    <div class="content">
+      <%= yield %>
+    </div>
+    <footer>
+      <i class='fa fa-copyright'></i>
+      <%= Date.today.year %>
+    </footer>
   </body>
 </html>
